@@ -1,0 +1,55 @@
+<!-- radio button: one choice only-->
+<!-- select tag-: dropdown menus-->
+<!-- textarea tag -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <label for="firstName">First Name</label>
+      <input name="firstName" id="firstName" type="text"  placeholder="John" required>
+      <label for="lastName">LastName</label>
+      <input name="lastName" id="lastName" type="text"  placeholder="Smith" required>
+      <br>
+      <label for="male">Male</label>
+      <input name="gender" id="male" type="radio" value="male">
+      <label for="female">Female</label>
+      <input name="gender" id="female" type="radio" value="female">
+      <label for="other">Other</label>
+      <input name="gender" id="other" type="radio" value="other">
+      <br>
+      <label for"email">Email</label>
+      <input name="email" id="email" type="email" placeholder="email address" required>
+      <label for="password">Password</label>
+      <input name="password" id="password" type="password" placeholder="Password" pattern="(.){5,10}" maxlength="10" required>
+      <br>
+      <p>Birthday:</p>
+      <select name="month">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+      </select>
+      <select name="date">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <select name="year">
+        <option>1975</option>
+        <option>1976</option>
+        <option>1977</option>
+        <option>1978</option>
+      </select>
+      <br>
+      <label for="terms">I agree to the terms and conditions</label>
+      <input name="terms" id="terms" type="checkbox" value="checked" required>
+      <br>
+      <input name="submit" type="submit">
+    </form>
+  </body>
+</html>
