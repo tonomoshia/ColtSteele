@@ -1,0 +1,55 @@
+        body {
+            color: red;
+        }
+        /*h2 stays red because we have not specified a h2 selector and it is part of the body element*/
+        
+        h2 {
+            font-family: Arial;
+        }
+        /*  demonstrating specificity, p turns green even though it is part of the body element*/
+        
+        p {
+            color: green;
+        }
+        /*  li inherits color from ul*/
+        
+        ul {
+            color: blue
+        }
+        /* turns li orange because it is more specific than ul selector*/
+        
+        li {
+            color: orange;
+        }
+        /*        Class on the li element is even more specific (directly targets), so class wins against the li selector and turns these items yellow.*/
+        
+        .highlight {
+            color: yellow;
+        }
+        /*        ID selector is even more specific and beats the class elemenet .highlight to turn the #special id selected item pink. */
+        
+        #special {
+            color: pink;
+        }
+        /*Check out specifity calculator for a visial way to understand CSS specificity. https://specificity.keegan.st/*/
+        /*Calculating specificity: https://www.w3.org/TR/css3-selectors/#specificity;*/
+        /*Type selectors are least specific. */
+        
+        li {}
+        
+        li a {}
+        
+        li + a {}
+        /*Followed by class, attributes, and pseudo-class selectors.*/
+        
+        .hello {}
+        
+        input[type="text"] {}
+        
+        a:hover;
+        {}
+        
+        input:checked {}
+        /*Most specific selectors are IDs.*/
+        
+        #special
