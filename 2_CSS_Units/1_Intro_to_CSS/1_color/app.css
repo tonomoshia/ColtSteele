@@ -1,0 +1,25 @@
+h1 {
+    /*Named Colors*/
+    color: indianred;
+}
+
+li {
+    /*HEXADECIMAL*/
+    color: #9E00A8;
+}
+
+h4 {
+    /*RGB*/
+    color: rgb(0, 13, 232);
+}
+
+h2 {
+    /*  Random digit color*/
+    color: #767543;
+}
+
+h3 {
+    /* random rgb color with alpha (rgba)*/
+    color: #23BE59;
+    color: rgba(35, 190, 89, .5);
+}

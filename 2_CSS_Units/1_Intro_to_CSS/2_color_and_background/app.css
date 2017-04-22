@@ -1,0 +1,19 @@
+h1 {
+    color: #00C864;
+    color: rgba(0. 200, 100, 0.8);
+    /*    border-color: purple;
+    border-width: 5px;
+    border-style: solid;*/
+    border: 2px dashed rgb(255, 100, 80);
+}
+
+h4 {
+    background-color: rgb(255, 100, 80);
+}
+
+body {
+    /*    background: url(http://img.clipartall.com/hope-you-ve-enjoyed-some-new-printables-and-freebies-this-week-wood-grain-clip-art-1257_1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background: pink;
+}
