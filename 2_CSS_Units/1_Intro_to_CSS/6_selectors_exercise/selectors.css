@@ -6,15 +6,16 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 /*Gave all a background of black so I could see if the white border on 2nd p indside 3rd div is working. */
 
-* {
+
+/** {
     background-color: black;
-}
+}*/
 
 
 /*Give the <body> element a background of #bdc3c7*/
 
 body {
-    color: #bdc3c7
+    background-color: #bdc3c7
 }
 
 
@@ -25,7 +26,7 @@ h1 {
 }
 
 
- /*Make all <h2> elements orange */
+/*Make all <h2> elements orange */
 
 h2 {
     color: orange;
@@ -36,13 +37,6 @@ h2 {
 
 li {
     color: #24a5c1;
-}
-
-
-/* Give the <body> element a background of #bdc3c7*/
-
-body {
-    color: #bdc3c7
 }
 
 p {
@@ -57,14 +51,14 @@ input {
 }
 
 
- Give everything with the class 'hello' a white background
+/*Give everything with the class 'hello' a white background */
 
 .hello {
     background: yellow;
 }
 
 
- Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)
+/*Give the element with id 'special' a 2px solid blue border(pick your own rgb blue) */
 
 #special {
     border: 2px solid rgb(36, 165, 193);
@@ -85,14 +79,14 @@ input[text-type="text"] {
 }
 
 
- Give both <p>'s inside the 3rd <div> a pink background
+/*Give both <p>'s inside the 3rd <div> a pink background*/
 
 div:nth-of-type(3) p {
     background: pink
 }
 
 
- Give the 2nd <p> inside the 3rd <div> a 5px white border
+/*Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
 div:nth-of-type(3) p:nth-of-type(2) {
     border: 5px solid white;
