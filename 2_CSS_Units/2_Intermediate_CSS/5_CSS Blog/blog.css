@@ -1,0 +1,35 @@
+html {
+    text-align: left;
+}
+
+body {
+    border: 20px solid #bdc3c7;
+    width: 75%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: .8em;
+}
+
+.highlight {
+    border-left: 4px solid #bdc3c7;
+    padding-left: 4px;
+}
+
+h2 {
+    color: #2c3e50;
+    letter-spacing: .3em;
+}
+
+p {
+    margin: 1.66%;
+}
+
+
+/*date color #3498db h2 color #2c3e50 font-family: "source sans pro" left-border on first paragraph margin on paragraphs date in all capital letter-spacing: in between post <hr> hr styles*/
