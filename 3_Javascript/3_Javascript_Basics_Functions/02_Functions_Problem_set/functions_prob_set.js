@@ -1,20 +1,4 @@
-// functions.js (quiz)
-
-// this function with these arguments would return 30
-// function test(x, y) {
-//     return y - x;
-// }
-
-// test(10, 40)
-
-// this function returns 80 and then stops
-// function test(x) {
-//     return x * 2;
-//     console.log(x);
-//     return x / 2;
-// }
-
-// test(40);
+// functions_prob_set.js
 
 // isEven(): write a function which takes a single numerical argument and remains true if the number is even, and false otherwise.
 function isEven(num) {
